@@ -1,0 +1,45 @@
+#img_backg{
+  text-align:center;
+  padding:40px;
+  background:url(../../assets/img/8edc25_cdd8c1581534429c8e8b3364b20e35f8_mv2_d_1707_1280_s_2.jpg) no-repeat center center;
+  background-size:cover;
+}
+
+@media (max-width:1199px) {
+  #img_backg{
+    padding:20px;
+  }
+}
+
+#img_backg .jumbotron{
+  border-radius:20px;
+  padding:40px;
+  background-color:rgba(255,255,255,0.6);
+  max-width:800px;
+  margin:0 auto;
+}
+
+@media (max-width:1199px) {
+  #img_backg .jumbotron{
+    padding:20px;
+  }
+}
+
+a.navbar-brand.navbar-link{
+  font-family:'Permanent Marker', cursive;
+}
+
+h1.text-center{
+  padding:40px;
+  font-family:'Skranji', cursive;
+}
+
+img.image{
+  margin:auto;
+  padding:50px;
+}
+
+form .input-group{
+  margin:10px;
+}
+
